@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  --background-start: #0f172a; /* Slate 900 */
+  --background-end: #1e3a8a;   /* Blue 900 */
+  --accent-gold: #fbbf24;      /* Amber 400 */
+}
+
+body {
+  background: linear-gradient(135deg, var(--background-start), var(--background-end));
+  background-attachment: fixed;
+  color: white;
+}
