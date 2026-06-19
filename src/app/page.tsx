@@ -9,11 +9,9 @@ export default function Home() {
   const [jogos, setJogos] = useState<any[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  // 2. Gerencie o carregamento manualmente aqui
   useEffect(() => {
     async function init() {
       const data = await getJogosDoDia();
-      // O setTimeout aqui garante que o usuário veja a animação por 3 segundos
       setTimeout(() => {
         setJogos(data);
         setIsLoading(false);
@@ -22,7 +20,6 @@ export default function Home() {
     init();
   }, []);
 
-  // 3. Se estiver carregando, exibe o componente de animação
   if (isLoading) return <CopaLoading />;
 
   const aoVivo = jogos.filter(j => j.status === 'ao-vivo');

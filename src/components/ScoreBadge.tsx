@@ -4,10 +4,9 @@ interface ScoreBadgeProps {
 }
 
 export default function ScoreBadge({ score, status }: ScoreBadgeProps) {
-  // Mapeamento de cores baseado no status
   const statusStyles = {
     'previsto': 'bg-gray-400',
-    'ao-vivo': 'bg-red-600 animate-pulse', // Pulsar sutil para jogos ao vivo
+    'ao-vivo': 'bg-red-600 animate-pulse', 
     'finalizado': 'bg-gray-800'
   };
 

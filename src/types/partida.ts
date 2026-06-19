@@ -1,7 +1,7 @@
 export interface Partida {
   id: string;
   data: string;
-  hora: string; // Adicionado: formato "HH:mm"
+  hora: string;
   timeCasa: { nome: string; bandeira: string };
   timeVisitante: { nome: string; bandeira: string };
   placarCasa: number | null;
