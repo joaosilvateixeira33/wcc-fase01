@@ -1,22 +1,92 @@
-Para documentar o seu projeto da FIFA World Cup 2026, um README profissional deve ser claro, apresentar as tecnologias utilizadas e guiar o usuário na instalação. Aqui está uma estrutura otimizada:
+# WCC - Fase 01
 
-FIFA World Cup 2026 - Dashboard
-Este projeto é um dashboard dinâmico para acompanhamento de partidas da Copa do Mundo 2026, desenvolvido com Next.js 15+ e Tailwind CSS. A aplicação apresenta um sistema de estados de carregamento personalizados com animações fluidas e uma interface moderna focada no desempenho.
+## 📋 Sobre o Projeto
 
-🚀 Funcionalidades
-Gestão de Estado de Carregamento: Tela de loading personalizada com barra de progresso animada (0-100%).
+Projeto desenvolvido durante a Fase 01 do desafio world code cup da empresa kodie 
 
-Dashboard em Tempo Real: Listagem categorizada de jogos (Ao Vivo, Previstos e Finalizados).
 
-Design Responsivo: Interface adaptável para dispositivos móveis e desktops.
+## 🛠️ Tecnologias Utilizadas
 
-Experiência do Usuário (UX): Transições suaves e feedback visual durante o processamento de dados.
+- typescript
+- nextjs
+- tailwind
+- Git e GitHub
 
-🛠 Tecnologias Utilizadas
-Framework: Next.js (App Router)
+## 📂 Estrutura do Projeto
 
-Linguagem: TypeScript
+```bash
+.
+├── src/
+├── docs/
+├── tests/
+├── README.md
+└── ...
+```
 
-Estilização: Tailwind CSS
+## ⚙️ Como Executar
 
-Componentização: React.js
+### Pré-requisitos
+
+- Ferramenta 1
+- Ferramenta 2
+
+### Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/joaosilvateixeira33/wcc-fase01.git
+```
+
+Acesse a pasta:
+
+```bash
+cd wcc-fase01
+```
+
+Instale as dependências:
+
+```bash
+comando-de-instalacao
+```
+
+Execute o projeto:
+
+```bash
+comando-de-execucao
+```
+
+## 🧪 Testes
+
+Para executar os testes:
+
+```bash
+comando-de-teste
+```
+
+## 📖 Documentação
+
+A documentação do projeto pode ser encontrada na pasta:
+
+```bash
+/docs
+```
+
+## 🎯 Objetivos de Aprendizagem
+
+- Aplicação de conceitos de arquitetura de software;
+- Organização de código;
+- Boas práticas de desenvolvimento;
+- Controle de versão com Git;
+- Documentação técnica.
+
+## 👨‍💻 Autor
+
+João Silva Teixeira
+
+GitHub:
+https://github.com/joaosilvateixeira33
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins educacionais.
